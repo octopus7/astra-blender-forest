@@ -1,0 +1,23 @@
+COZY LAKE FOREST / 300 × 300m
+
+1) ZIP 전체를 폴더에 압축 해제하세요.
+2) Blender > Scripting > Open > 01_build_scene.py
+3) Text Editor에서 Alt+P / Run Script
+4) CF_CozyLake_300m 씬 확인 후 .blend를 직접 저장하세요.
+
+같은 모델은 Mesh 데이터블록을 공유합니다.
+추가 배치는 Alt+D로 복제하세요.
+
+Unreal로 보낼 때:
+- Blender에서 02_export_unreal.py 실행
+- Unreal Editor에서 03_import_unreal.py 실행
+- 기본은 고유 FBX + 셀별 HISM 배치입니다.
+- 콜리전과 레벨 저장은 직접 설정해야 합니다.
+
+전체가 무거우면 05_focus_region.py로 일부 구역만 표시하세요.
+OPEN_PREVIEWS.html을 열면 전체 배치도와 가까운 시점 미리보기를 볼 수 있습니다.
+
+이 패키지는 스크립트입니다. 완성 .blend / FBX는 포함하지 않습니다.
+Blender / Unreal 실행 검증은 하지 못했습니다.
+순수 Python 기하·배치·좌표 변환 검증 결과는 TEST_REPORT.md에 있습니다.
+자세한 사용법: README_KO.md

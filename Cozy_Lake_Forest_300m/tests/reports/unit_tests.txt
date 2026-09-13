@@ -1,0 +1,35 @@
+test_12_landmark_regions (test_core.GeometryTests.test_12_landmark_regions) ... ok
+test_36_terrain_cells (test_core.GeometryTests.test_36_terrain_cells) ... ok
+test_all_cell_assignments (test_core.GeometryTests.test_all_cell_assignments) ... ok
+test_cell_bounds_and_counts (test_core.GeometryTests.test_cell_bounds_and_counts) ... ok
+test_config_validation (test_core.GeometryTests.test_config_validation) ... ok
+test_different_seed_changes_placements (test_core.GeometryTests.test_different_seed_changes_placements) ... ok
+test_forest_avoids_water_paths_clearings (test_core.GeometryTests.test_forest_avoids_water_paths_clearings) ... ok
+test_forest_tree_count (test_core.GeometryTests.test_forest_tree_count) ... ok
+test_geometry_valid (test_core.GeometryTests.test_geometry_valid) ... ok
+test_hism_grouping_cell_plus_asset (test_core.GeometryTests.test_hism_grouping_cell_plus_asset) ... ok
+test_lakes_have_water (test_core.GeometryTests.test_lakes_have_water) ... ok
+test_landmark_centres_are_dry (test_core.GeometryTests.test_landmark_centres_are_dry) ... ok
+test_landmarks_connected_to_trails (test_core.GeometryTests.test_landmarks_connected_to_trails) ... ok
+test_light_preset_valid (test_core.GeometryTests.test_light_preset_valid) ... ok
+test_manifest_rejects_outside_pivots (test_core.GeometryTests.test_manifest_rejects_outside_pivots) ... ok
+test_map_extent_300 (test_core.GeometryTests.test_map_extent_300) ... ok
+test_new_assets_are_valid (test_core.GeometryTests.test_new_assets_are_valid) ... ok
+test_no_structures_when_disabled (test_core.GeometryTests.test_no_structures_when_disabled) ... ok
+test_orchard_trees_avoid_paths (test_core.GeometryTests.test_orchard_trees_avoid_paths) ... ok
+test_positive_scale_and_finite_matrices (test_core.GeometryTests.test_positive_scale_and_finite_matrices) ... ok
+test_reusable_props_no_per_instance_vertices (test_core.GeometryTests.test_reusable_props_no_per_instance_vertices) ... ok
+test_seed_determinism (test_core.GeometryTests.test_seed_determinism) ... ok
+test_terrain_tile_seams_exact (test_core.GeometryTests.test_terrain_tile_seams_exact) ... ok
+test_terrain_triangle_count (test_core.GeometryTests.test_terrain_triangle_count) ... ok
+test_tree_min_spacing (test_core.GeometryTests.test_tree_min_spacing) ... ok
+test_water_level_and_no_duplicate_faces (test_core.GeometryTests.test_water_level_and_no_duplicate_faces) ... ok
+test_all_48_axis_conversions_with_nonuniform_scale (test_core.TransformTests.test_all_48_axis_conversions_with_nonuniform_scale) ... ok
+test_all_default_scene_transforms (test_core.TransformTests.test_all_default_scene_transforms) ... ok
+test_basis_calibration_rejects_wrong_scale (test_core.TransformTests.test_basis_calibration_rejects_wrong_scale) ... ok
+test_reject_shear_negative_scale_and_nonfinite (test_core.TransformTests.test_reject_shear_negative_scale_and_nonfinite) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.910s
+
+OK

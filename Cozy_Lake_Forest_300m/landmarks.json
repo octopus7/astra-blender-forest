@@ -1,0 +1,134 @@
+[
+  {
+    "id": "village",
+    "title": "Lakeside Village",
+    "title_ko": "호숫가 작은 마을",
+    "x": 64.0,
+    "y": 37.0,
+    "radius": 17.0,
+    "height": 2.15,
+    "enabled": true,
+    "z": 2.15
+  },
+  {
+    "id": "meadow",
+    "title": "Wildflower Garden",
+    "title_ko": "꽃바람 정원",
+    "x": -79.0,
+    "y": 28.0,
+    "radius": 21.0,
+    "height": 1.85,
+    "enabled": true,
+    "z": 1.85
+  },
+  {
+    "id": "camp",
+    "title": "Lantern Camp",
+    "title_ko": "랜턴 캠핑장",
+    "x": -58.0,
+    "y": -43.0,
+    "radius": 15.0,
+    "height": 2.05,
+    "enabled": true,
+    "z": 2.05
+  },
+  {
+    "id": "orchard",
+    "title": "Honey Orchard",
+    "title_ko": "꿀벌 과수원",
+    "x": 78.0,
+    "y": -94.0,
+    "radius": 22.0,
+    "height": 2.4,
+    "enabled": true,
+    "z": 2.4
+  },
+  {
+    "id": "lookout",
+    "title": "Windmill Lookout",
+    "title_ko": "풍차 전망 언덕",
+    "x": 99.0,
+    "y": 98.0,
+    "radius": 15.0,
+    "height": 7.1,
+    "enabled": true,
+    "z": 7.1
+  },
+  {
+    "id": "guardian",
+    "title": "Wishing Grove",
+    "title_ko": "소원 나무 숲",
+    "x": -98.0,
+    "y": 95.0,
+    "radius": 15.0,
+    "height": 3.7,
+    "enabled": true,
+    "z": 3.7
+  },
+  {
+    "id": "ruins",
+    "title": "Mossy Sanctuary",
+    "title_ko": "이끼 낀 작은 유적",
+    "x": -103.0,
+    "y": -101.0,
+    "radius": 15.0,
+    "height": 2.65,
+    "enabled": true,
+    "z": 2.65
+  },
+  {
+    "id": "fishing",
+    "title": "Quiet Fishing Pond",
+    "title_ko": "조용한 낚시 연못",
+    "x": 98.0,
+    "y": -61.0,
+    "radius": 9.0,
+    "height": 0.9,
+    "enabled": true,
+    "z": 0.9
+  },
+  {
+    "id": "reading",
+    "title": "Forest Library",
+    "title_ko": "숲속 책 쉼터",
+    "x": 3.0,
+    "y": 103.0,
+    "radius": 11.0,
+    "height": 2.8,
+    "enabled": true,
+    "z": 2.8
+  },
+  {
+    "id": "mushroom",
+    "title": "Mushroom Tea Garden",
+    "title_ko": "버섯 티 가든",
+    "x": 33.0,
+    "y": -105.0,
+    "radius": 13.0,
+    "height": 2.05,
+    "enabled": true,
+    "z": 2.05
+  },
+  {
+    "id": "arrival",
+    "title": "Welcome Clearing",
+    "title_ko": "숲 입구 쉼터",
+    "x": 54.0,
+    "y": -133.0,
+    "radius": 10.0,
+    "height": 1.7,
+    "enabled": true,
+    "z": 1.7
+  },
+  {
+    "id": "boathouse",
+    "title": "Lakeside Picnic",
+    "title_ko": "물가 피크닉터",
+    "x": 29.0,
+    "y": -16.0,
+    "radius": 8.0,
+    "height": 1.05,
+    "enabled": true,
+    "z": 1.05
+  }
+]
