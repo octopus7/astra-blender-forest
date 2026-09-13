@@ -1,3 +1,11 @@
+[English](README.md) · [한국어](README_KO.md) · [日本語](README_JA.md)
+
+<p align="center">
+  <img src="../images/forest300_1.jpeg" alt="Cozy Lake Forest 전체 모습" width="32%" />
+  <img src="../images/forest300_2.jpeg" alt="호숫가 마을 모습" width="32%" />
+  <img src="../images/forest300_3.jpeg" alt="과수원과 정원 모습" width="32%" />
+</p>
+
 # Cozy Lake Forest — 300 × 300m
 
 참고 이미지의 둥근 로우폴리 수관, 밝은 풀밭, 모래색 산책로, 청록색 물을 기준으로 만든 Blender 씬 생성 스크립트입니다. 기존 64m 씬을 확대하지 않고, 300m 부지에 새로운 동선과 목적지를 배치했습니다.
