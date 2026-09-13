@@ -12,6 +12,8 @@
 
 `Cozy_Lake_Forest_300m` は、300 × 300 m の敷地にローポリ風の森、湖と池、遊歩道、建物、12 のランドマークエリアを生成する Blender Python ソースパッケージです。完成済みの `.blend` や FBX シーンではなく、Blender 内でシーンを生成するスクリプトと関連ファイルを収録しています。
 
+このプロジェクトは Codex ではなく、ChatGPT との会話を通して作成されました。
+
 詳しい手順は [Cozy Lake Forest 日本語ガイド](Cozy_Lake_Forest_300m/README_JA.md)をご覧ください。[英語ガイド](Cozy_Lake_Forest_300m/README.md)と[韓国語ガイド](Cozy_Lake_Forest_300m/README_KO.md)もあります。
 
 ## クイックスタート

@@ -12,6 +12,8 @@
 
 `Cozy_Lake_Forest_300m` is a Blender Python source package that generates a stylized low-poly forest scene on a **300 × 300 m** site. It creates terrain, a lake and ponds, connected trails, forests, and 12 landmark areas such as a lakeside village, campground, orchard, and lookout.
 
+This project was created through a conversation with ChatGPT, not Codex.
+
 The package generates the scene inside Blender. It does not include a prebuilt `.blend` or FBX scene.
 
 ## Quick start

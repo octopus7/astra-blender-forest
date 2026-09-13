@@ -12,6 +12,8 @@
 
 `Cozy_Lake_Forest_300m`은 300 × 300m 부지에 로우폴리 숲, 호수와 연못, 산책로, 건물과 12개 랜드마크 구역을 생성하는 Blender Python 소스 패키지입니다. 완성된 `.blend`나 FBX 장면이 아니라 Blender에서 장면을 만드는 스크립트와 지원 파일을 제공합니다.
 
+이 프로젝트는 Codex가 아닌 ChatGPT와의 대화를 통해 생성되었습니다.
+
 자세한 사용법은 [Cozy Lake Forest 한국어 가이드](Cozy_Lake_Forest_300m/README_KO.md)를 참고하세요. [영어 가이드](Cozy_Lake_Forest_300m/README.md)와 [일본어 가이드](Cozy_Lake_Forest_300m/README_JA.md)도 제공됩니다.
 
 ## 빠른 시작
