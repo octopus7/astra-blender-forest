@@ -1,0 +1,79 @@
+{
+  "units": "metres",
+  "axis": "Z_UP_RIGHT_HANDED",
+  "scene_origin": "centre of bridge at bank deck height",
+  "assets": [
+    {
+      "id": "SM_BrokenBridge_Left",
+      "file": "modular/SM_BrokenBridge_Left.glb"
+    },
+    {
+      "id": "SM_BrokenBridge_Right",
+      "file": "modular/SM_BrokenBridge_Right.glb"
+    },
+    {
+      "id": "SM_BrokenBridge_Debris",
+      "file": "modular/SM_BrokenBridge_Debris.glb"
+    }
+  ],
+  "instances": [
+    {
+      "asset": "SM_BrokenBridge_Left",
+      "translation": [
+        -4,
+        0,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "asset": "SM_BrokenBridge_Right",
+      "translation": [
+        4,
+        0,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "asset": "SM_BrokenBridge_Debris",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "unreal_cm_hint": "Multiply translations by 100. Import the glTF asset with correct axis conversion before applying transforms."
+}

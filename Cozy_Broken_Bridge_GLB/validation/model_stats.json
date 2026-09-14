@@ -1,0 +1,116 @@
+{
+  "asset": "SM_BrokenBridge",
+  "seed": 640219,
+  "coordinates": {
+    "construction": "X length, Y width, Z up; metres",
+    "glb": "X length, Y up, Z width; metres"
+  },
+  "bounds_z_up_m": [
+    [
+      -6.057916943266238,
+      -2.0521103498579008,
+      -1.8998923277109723
+    ],
+    [
+      5.83300887787627,
+      2.1769105709734333,
+      1.3447107878953324
+    ]
+  ],
+  "dimensions_length_width_height_m": [
+    11.890925821142508,
+    4.229020920831334,
+    3.2446031156063047
+  ],
+  "triangles": 27016,
+  "vertices_with_uv_normal_splits": 56824,
+  "material_count": 1,
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "components": {
+    "timber": 59,
+    "splinter": 63,
+    "rusted_nail": 50,
+    "moss_patch": 103,
+    "rope_binding": 8,
+    "ivy_leaf": 144,
+    "ivy_vine": 16,
+    "shelf_fungus": 18,
+    "rope_span": 6,
+    "foundation_stone": 40,
+    "mushroom": 18,
+    "hanging_moss": 24,
+    "debris_cluster": 1
+  },
+  "files": [
+    {
+      "file": "models/SM_BrokenBridge.glb",
+      "bytes": 11159312,
+      "triangles_unique": 27016,
+      "meshes": 1,
+      "nodes": 1,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/BrokenBridge_Modular.glb",
+      "bytes": 11161912,
+      "triangles_unique": 27016,
+      "meshes": 3,
+      "nodes": 3,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Left.glb",
+      "bytes": 9693424,
+      "triangles_unique": 13328,
+      "meshes": 1,
+      "nodes": 1,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Right.glb",
+      "bytes": 9682432,
+      "triangles_unique": 13224,
+      "meshes": 1,
+      "nodes": 1,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Debris.glb",
+      "bytes": 8322628,
+      "triangles_unique": 464,
+      "meshes": 1,
+      "nodes": 1,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/Reuse_3_Instances.glb",
+      "bytes": 11159452,
+      "triangles_unique": 27016,
+      "meshes": 1,
+      "nodes": 3,
+      "embedded_images": 3
+    },
+    {
+      "file": "collision/Deck_Proxies.glb",
+      "bytes": 5200,
+      "triangles_unique": 24,
+      "meshes": 2,
+      "nodes": 2,
+      "embedded_images": 0
+    }
+  ],
+  "clear_gap_x_m": [
+    -1.1818265914916992,
+    1.1569781303405762
+  ],
+  "gameplay_note": "No intact deck, rail, rope or beam connects the banks. Character jumping, invisible blockers and navigation must be configured in the game engine.",
+  "texture_provenance": "Reuses the previously supplied atlas; source crops and re-composition script included. No new AI image generation was performed for this correction.",
+  "testing": {
+    "Blender": false,
+    "Unreal": false
+  },
+  "clear_gap_width_m": 2.3388047218322754
+}

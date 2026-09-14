@@ -1,0 +1,404 @@
+{
+  "status": "PASS",
+  "validator": "Project-specific structural/numeric tests + Trimesh 4.11.1",
+  "not_khronos_validator": true,
+  "files_checked": 7,
+  "per_file_check_count": 11,
+  "assembly_checks": [
+    "Modular assembly bounds equal complete asset",
+    "Instance example has 1 mesh referenced by 3 nodes",
+    "Left/right collision proxies leave the centre open"
+  ],
+  "files": [
+    {
+      "file": "collision/Deck_Proxies.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 24,
+      "vertices": 48,
+      "mesh_count": 2,
+      "node_count": 2,
+      "images": [],
+      "bounds_y_up_m": [
+        [
+          -5.28000020980835,
+          -0.28999999165534973,
+          -1.600000023841858
+        ],
+        [
+          5.28000020980835,
+          0.12999999523162842,
+          1.600000023841858
+        ]
+      ]
+    },
+    {
+      "file": "models/SM_BrokenBridge.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 27016,
+      "vertices": 56824,
+      "mesh_count": 1,
+      "node_count": 1,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -6.05791711807251,
+          -1.8998923301696777,
+          -2.176910638809204
+        ],
+        [
+          5.833008766174316,
+          1.3447108268737793,
+          2.052110433578491
+        ]
+      ]
+    },
+    {
+      "file": "modular/BrokenBridge_Modular.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 27016,
+      "vertices": 56824,
+      "mesh_count": 3,
+      "node_count": 3,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -6.05791711807251,
+          -1.8998923301696777,
+          -2.176910638809204
+        ],
+        [
+          5.833008766174316,
+          1.3447108268737793,
+          2.052110433578491
+        ]
+      ]
+    },
+    {
+      "file": "modular/Reuse_3_Instances.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 27016,
+      "vertices": 56824,
+      "mesh_count": 1,
+      "node_count": 3,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -6.05791711807251,
+          -1.8998923301696777,
+          -17.176910638809204
+        ],
+        [
+          5.833008766174316,
+          1.3447108268737793,
+          2.052110433578491
+        ]
+      ]
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Debris.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 464,
+      "vertices": 1048,
+      "mesh_count": 1,
+      "node_count": 1,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -0.6784654855728149,
+          -1.8998923301696777,
+          -1.4644644260406494
+        ],
+        [
+          1.088936686515808,
+          -1.0019878149032593,
+          0.9160206913948059
+        ]
+      ]
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Left.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 13328,
+      "vertices": 27996,
+      "mesh_count": 1,
+      "node_count": 1,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -2.0579171180725098,
+          -1.8544706106185913,
+          -1.960033655166626
+        ],
+        [
+          2.818173408508301,
+          1.1527434587478638,
+          2.052110433578491
+        ]
+      ]
+    },
+    {
+      "file": "modular/SM_BrokenBridge_Right.glb",
+      "status": "PASS",
+      "checks": [
+        "GLB header and chunk lengths",
+        "Embedded buffer, no external URI",
+        "Buffer bounds and four-byte alignment",
+        "Finite positions and accessor min/max",
+        "Index and attribute counts",
+        "Non-degenerate triangles",
+        "Unit normals",
+        "Unit orthogonal tangents and valid handedness",
+        "UV bounds",
+        "Embedded PNG decoding and 2K image size",
+        "Independent Trimesh GLB re-import"
+      ],
+      "triangles_unique": 13224,
+      "vertices": 27780,
+      "mesh_count": 1,
+      "node_count": 1,
+      "images": [
+        {
+          "name": "T_BrokenBridge_BaseColor.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "e526c0fa198f10dfd6e4ce9af59c66ae3b996510ffb8f5d6e16754231bf9ce69"
+        },
+        {
+          "name": "T_BrokenBridge_Normal_GL.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "b5951eca526c6dd3aa0c9b164728f9776934b8d0297726887d32db0cec6dc010"
+        },
+        {
+          "name": "T_BrokenBridge_ORM.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "sha256": "0d98ab68147d233bb46ea492af26e8cbb682854648e932415272642b61098ae1"
+        }
+      ],
+      "bounds_y_up_m": [
+        [
+          -2.843021869659424,
+          -1.8519906997680664,
+          -2.176910638809204
+        ],
+        [
+          1.8330087661743164,
+          1.3447108268737793,
+          2.0210399627685547
+        ]
+      ]
+    }
+  ],
+  "Blender_runtime_tested": false,
+  "Unreal_runtime_tested": false
+}

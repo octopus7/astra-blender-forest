@@ -1,0 +1,14 @@
+{
+  "renderer": "VTK 9.6.2 / EGL offscreen",
+  "source": "models/SM_BrokenBridge.glb",
+  "importer": "vtkGLTFImporter",
+  "status": "PASS",
+  "material_textures_imported": 3,
+  "views": [
+    "01_asset_preview.jpg",
+    "02_broken_wood_detail.jpg",
+    "03_fungus_and_moss_detail.jpg",
+    "04_top_view.jpg"
+  ],
+  "note": "Studio floor, lights and environment are preview-only. All bridge geometry and textures are re-imported from the delivered GLB."
+}
