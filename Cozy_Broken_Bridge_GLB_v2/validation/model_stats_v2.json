@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "source_triangles": 27016,
+  "triangles": 6732,
+  "fraction_of_v1": 0.249185667752443,
+  "reduction_percent": 75.0814332247557,
+  "vertex_records": 14352,
+  "bounds_z_up_m": [
+    [
+      -6.057916943266238,
+      -2.0521103498579008,
+      -1.8998923277109723
+    ],
+    [
+      5.83300887787627,
+      2.1769105709734333,
+      1.3183107878953326
+    ]
+  ],
+  "dimensions_m": [
+    11.890925821142508,
+    4.229020920831334,
+    3.218203115606305
+  ],
+  "triangles_by_component": {
+    "timber": 1710,
+    "splinter": 378,
+    "nail": 100,
+    "moss_blob": 412,
+    "binding": 864,
+    "vine": 672,
+    "mushroom": 1440,
+    "rope": 260,
+    "rock": 800,
+    "drape": 96
+  },
+  "material_count": 1,
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "part_triangles": {
+    "SM_BrokenBridge_Left_v2": 3278,
+    "SM_BrokenBridge_Right_v2": 3246,
+    "SM_BrokenBridge_Debris_v2": 208
+  },
+  "clear_gap_x_m": [
+    -1.1818265911879708,
+    1.1569782952982166
+  ],
+  "files": [
+    {
+      "file": "models/SM_BrokenBridge_v2.glb",
+      "bytes": 8998852,
+      "triangles_unique": 6732,
+      "meshes": 1,
+      "nodes": 1,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/BrokenBridge_Modular_v2.glb",
+      "bytes": 9001464,
+      "triangles_unique": 6732,
+      "meshes": 3,
+      "nodes": 3,
+      "embedded_images": 3
+    },
+    {
+      "file": "modular/Reuse_3_Instances_v2.glb",
+      "bytes": 8998976,
+      "triangles_unique": 6732,
+      "meshes": 1,
+      "nodes": 3,
+      "embedded_images": 3
+    }
+  ],
+  "clear_gap_width_m": 2.3388048864861872
+}

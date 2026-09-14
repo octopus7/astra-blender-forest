@@ -1,0 +1,92 @@
+{
+  "resolution": [
+    2048,
+    2048
+  ],
+  "gutter_pixels": 8,
+  "uv_pixel_inset": 12,
+  "tiles_top_left_pixel_coordinates": {
+    "wood_old": [
+      0,
+      0,
+      512,
+      1024
+    ],
+    "wood_clean": [
+      512,
+      0,
+      1024,
+      1024
+    ],
+    "wood_moss": [
+      1024,
+      0,
+      1536,
+      1024
+    ],
+    "wood_rot": [
+      1536,
+      0,
+      2048,
+      1024
+    ],
+    "rot_end": [
+      0,
+      1024,
+      512,
+      1536
+    ],
+    "endgrain": [
+      512,
+      1024,
+      1024,
+      1536
+    ],
+    "moss": [
+      1024,
+      1024,
+      1536,
+      1536
+    ],
+    "cap": [
+      1536,
+      1024,
+      2048,
+      1536
+    ],
+    "gills": [
+      0,
+      1536,
+      512,
+      2048
+    ],
+    "rope": [
+      512,
+      1536,
+      768,
+      2048
+    ],
+    "metal": [
+      768,
+      1536,
+      1024,
+      2048
+    ],
+    "leaf": [
+      1024,
+      1536,
+      1536,
+      2048
+    ],
+    "stone": [
+      1536,
+      1536,
+      2048,
+      2048
+    ]
+  },
+  "source": "Previous conversation composited atlas, supplied as an attachment. Crops are not newly generated separate AI images.",
+  "normal": "Approximate luminance-derived tangent-space detail; GL embedded in glb; DX supplied separately.",
+  "AO": "Local texture-derived cavity approximation, not geometry-baked ambient occlusion.",
+  "ORM": "R=texture-derived AO; G=roughness; B=metallic"
+}

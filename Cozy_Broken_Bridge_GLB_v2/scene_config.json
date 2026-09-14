@@ -1,0 +1,28 @@
+{
+  "scene_name": "CF_BrokenBridge_v2",
+  "render_engine": "CYCLES",
+  "render_samples": 64,
+  "resolution": [
+    1920,
+    1280
+  ],
+  "build_environment": true,
+  "build_modular_parts": false,
+  "show_instance_example": false,
+  "pack_textures": true,
+  "water_level_m": -0.68,
+  "river_half_width_m": 5.3,
+  "river_length_m": 22.0,
+  "water_bottom_m": -2.35,
+  "water_roughness": 0.1,
+  "water_transmission": 0.9,
+  "water_ior": 1.333,
+  "water_absorption_density": 0.16,
+  "water_ripple_strength": 0.18,
+  "water_ripple_distance_m": 0.025,
+  "water_flow_metres_per_second": 0.08,
+  "sun_energy": 2.2,
+  "world_strength": 0.38,
+  "environment_decoration": true,
+  "seed": 42107
+}

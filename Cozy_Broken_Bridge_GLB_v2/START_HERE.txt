@@ -1,0 +1,20 @@
+Cozy Broken Bridge v2
+====================
+
+완성된 저폴리 다리:
+  models/SM_BrokenBridge_v2.glb
+  6,732삼각형 / 메시 1개 / 재질 1개 / 내장 2K 텍스처
+
+Blender에서 다리 + 조명 + 강바닥 + 강물 생성:
+  ZIP 전체 압축 해제
+  Scripting > Open > 01_build_blender_scene_v2.py > Run Script
+  F12 렌더, Save As로 .blend 저장
+
+기존 씬을 지우지 않고 새 CF_BrokenBridge_v2 씬을 생성합니다.
+다리 본체만 6,732삼각형이며, 환경은 별도 컬렉션입니다.
+Blender 절차적 강물 재질은 단독 다리 GLB에 포함되지 않습니다.
+
+실제 GLB 재로딩/수치검사/VTK 렌더: 완료
+Blender/Unreal 내부 실행과 Cycles 렌더: 미검증
+자세한 설명: README_KO.md
+미리보기 모음: OPEN_PREVIEWS.html

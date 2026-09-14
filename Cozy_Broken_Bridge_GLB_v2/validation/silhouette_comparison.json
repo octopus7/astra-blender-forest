@@ -1,0 +1,25 @@
+{
+  "comparison": "Supplied v1 geometry versus delivered v2, binary silhouettes. Not an AI-reference similarity score.",
+  "renderer": "VTK offscreen",
+  "resolution": [
+    1200,
+    800
+  ],
+  "views": {
+    "hero": {
+      "intersection_over_union": 0.9714640334786859,
+      "v1_pixels": 179286,
+      "v2_pixels": 179690
+    },
+    "top": {
+      "intersection_over_union": 0.9731490769995219,
+      "v1_pixels": 212618,
+      "v2_pixels": 208306
+    },
+    "side": {
+      "intersection_over_union": 0.9665658276863505,
+      "v1_pixels": 163701,
+      "v2_pixels": 161333
+    }
+  }
+}

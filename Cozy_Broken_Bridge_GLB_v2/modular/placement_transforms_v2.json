@@ -1,0 +1,68 @@
+{
+  "units": "metres",
+  "axis": "Z_UP_RIGHT_HANDED",
+  "asset": {
+    "id": "SM_BrokenBridge_v2",
+    "file": "../models/SM_BrokenBridge_v2.glb"
+  },
+  "instances": [
+    {
+      "asset": "SM_BrokenBridge_v2",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "asset": "SM_BrokenBridge_v2",
+      "translation": [
+        0,
+        7.5,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "asset": "SM_BrokenBridge_v2",
+      "translation": [
+        0,
+        15,
+        0
+      ],
+      "rotation_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "note": "One mesh asset, three transforms. Engine-specific HISM creation is not provided."
+}

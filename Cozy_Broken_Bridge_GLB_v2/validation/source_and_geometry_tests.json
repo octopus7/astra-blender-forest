@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Python syntax: 02_export_bridge_v2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: 01_build_blender_scene_v2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: 03_validate_blender_scene_v2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/generate_bridge_v2.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/scene_geometry.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/validate_glb.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/render_previews.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/mesh_core.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/test_package.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/render_river_preview.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/compose_textures.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Python syntax: source/compare_silhouettes.py",
+      "status": "PASS"
+    },
+    {
+      "check": "Exactly 6732 bridge triangles",
+      "status": "PASS"
+    },
+    {
+      "check": "Approximately one quarter of 27016 triangles",
+      "status": "PASS"
+    },
+    {
+      "check": "Deterministic geometry",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Left_v2 finite data",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Left_v2 nonempty faces, valid indices",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Left_v2 positive triangle area",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Left_v2 consistent normals",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Left_v2 inset UV bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Right_v2 finite data",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Right_v2 nonempty faces, valid indices",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Right_v2 positive triangle area",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Right_v2 consistent normals",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Right_v2 inset UV bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Debris_v2 finite data",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Debris_v2 nonempty faces, valid indices",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Debris_v2 positive triangle area",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Debris_v2 consistent normals",
+      "status": "PASS"
+    },
+    {
+      "check": "SM_BrokenBridge_Debris_v2 inset UV bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "Clear gap preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Debris remains below walking height",
+      "status": "PASS"
+    },
+    {
+      "check": "2K texture: T_BrokenBridge_BaseColor.png",
+      "status": "PASS"
+    },
+    {
+      "check": "2K texture: T_BrokenBridge_Normal_GL.png",
+      "status": "PASS"
+    },
+    {
+      "check": "2K texture: T_BrokenBridge_Normal_DX.png",
+      "status": "PASS"
+    },
+    {
+      "check": "2K texture: T_BrokenBridge_ORM.png",
+      "status": "PASS"
+    },
+    {
+      "check": "Water is a closed manifold volume",
+      "status": "PASS"
+    },
+    {
+      "check": "Water has physical thickness",
+      "status": "PASS"
+    },
+    {
+      "check": "Riverbed inside water volume",
+      "status": "PASS"
+    },
+    {
+      "check": "Geometry and material names align",
+      "status": "PASS"
+    },
+    {
+      "check": "Display decorations reuse three prototypes",
+      "status": "PASS"
+    },
+    {
+      "check": "Defaults keep bridge one mesh",
+      "status": "PASS"
+    },
+    {
+      "check": "Textures are packed by Blender builder",
+      "status": "PASS"
+    }
+  ],
+  "count": 43,
+  "Blender_runtime_tested": false,
+  "Unreal_runtime_tested": false,
+  "Blender_render_tested": false,
+  "scope": "Python syntax + actual geometry/material-file inputs. Does not execute Blender APIs.",
+  "environment_triangles_unique": 1782,
+  "environment_instances": 46
+}

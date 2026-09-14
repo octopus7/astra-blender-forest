@@ -1,0 +1,10 @@
+{
+  "Python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "Pillow": "12.3.0",
+  "scipy": "1.17.0",
+  "trimesh": "4.11.1",
+  "VTK": "9.6.2",
+  "Blender_runtime": "Unavailable in production container; not executed",
+  "Unreal_runtime": "Not executed"
+}
